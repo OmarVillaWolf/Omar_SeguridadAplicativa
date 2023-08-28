@@ -32,8 +32,8 @@ Es la solucion que brinda el servidor
 
 11.- Secciones de una peticion?
 
-1 Cabecera
-2 Cuerpo
+1 GET
+2 POST
 
 12.- Secciones de una Response?
 
