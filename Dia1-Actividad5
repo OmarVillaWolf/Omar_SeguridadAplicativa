@@ -1,0 +1,55 @@
+# Protocolo HTTP
+
+1.- Que es una red?
+Una red es la interconexion de varios elementos.
+
+2.- Que es el modelo TCP/IP?
+El modelo TCP/IP es la familia de protocolos que componen la arquitectura de internet y permiten una buena comunicacion en la transmision de datos. 
+
+3.- Que es una IP?
+Una IP sirve para identificar y permite el envio de informacion entre los elementos de una red.
+
+4.- Que es el protocolo TCP?
+Esta en la capa 4 del modelo OSI y nos permite el intercambio de flujo de datos entre dos hosts, garantiza la entrega de datos de manera estructurada.
+
+5.- Dentro del protocolo TCP, Que es el protocolo HTTP?
+Nos permite realizar peticiones para intercambiar datos en la web
+
+6.- Puerto del protocolo HTTP y HTTPS?
+80, 443
+
+7.- Cual es la diferencia entre HTTP y HTTPS?
+Que HTTPS es un protocolo mas seguro ya contiene un certificado TLS/SSL en la transmision y HTTP lo hace en texto plano
+
+8.- Que significa el modelo Cliente-Servidor?
+Es cuando el cliente realiza peticiones a un servidor, el servidor es quien presta el servicio 
+
+9.- Que es un peticion (request)?
+El cliente hace la peticion y permite el acceso a la informacion desde un navegador
+
+10.- Que es una respuesta (Response)?
+Es la solucion que brinda el servidor 
+
+11.- Secciones de una peticion?
+
+1 Cabecera
+2 Cuerpo
+
+12.- Secciones de una Response?
+
+1 Encabezado
+2 Cuerpo
+
+
+13.- El codigo de respuesta 404 y 500 a que se refieren?
+404 = No encontrado 
+500 = Algo esta fallando en el sitio 
+
+14.- Lenguajes de programacion para el backend?
+PHP
+
+15.- Lenguajes de programacion para el Frontend?
+HTML, CSS, JavaScript
+
+16.- Que es Burp?
+Es un software que nos ayuda a la intercepcion de peticiones web, en el podemos modificar las peticiones o hacer algunos ataques. 
