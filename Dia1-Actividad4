@@ -1,0 +1,19 @@
+# Logica de programacion 
+# 1.- Programar del 1 al 100 donde los multiplos de 3 cambia por 'fizz', los multiplos de 5 por 'buzz' y los multiplos de ambos por 'fizz buzz'.
+
+for i in range(1, 100):
+  if i % 3 == 0 and i % 5 == 0:
+    print('FizzBuzz')
+  elif i % 3 == 0:
+    print('Fizz')
+  elif i % 5 == 0:
+    print('Buzz')
+  else:
+    print(i)
+
+
+# 2.- Escribir un programa que muestre en pantalla una tabla de multiplicar del 1 al 100
+
+for i in range(1, 11):
+    for j in range(1, 11):
+      print(i, 'x', j, '=', i*j)
