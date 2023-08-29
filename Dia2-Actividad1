@@ -1,0 +1,13 @@
+# Script1
+sudo adduser $1;
+
+# Comando por consola
+chmod +x Script1
+./Script1 juan
+cat /etc/passwd;
+
+# Capturas 
+[![Kali1.png](https://i.postimg.cc/T3ntbdTZ/Kali1.png)](https://postimg.cc/1850hZnH)
+
+[![Kali11.png](https://i.postimg.cc/2Sdx60wY/Kali11.png)](https://postimg.cc/MnTB3bN3)
+
