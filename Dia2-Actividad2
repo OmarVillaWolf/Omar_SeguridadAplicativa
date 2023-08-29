@@ -2,7 +2,7 @@
 
 useradd -m -s /bin/zsh $1 -p $1 -c "act2";
 
-  # d = Directorio
+  # m = Directorio de /home/username
   # s = Shell
   # p = password
   # c = Comentario
