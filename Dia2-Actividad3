@@ -1,0 +1,10 @@
+# Script para que nos muestre los hosts activos en un escaneo con la herrmaienta de Nmap.
+
+nano Script3
+activos=$(nmap localhost | tail -n 1 | cut -d "(" -f 2 | cut -d " " -f 1);
+echo "Host activos: " $activos;
+
+
+# Comandos por consola 
+chmod +x Script3
+./Script3
