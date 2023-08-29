@@ -1,0 +1,8 @@
+# Comandos Linux
+
+nslookup domain.com           # Sirve para que nos regrese la ip del dominio ingresado
+test=$(whoami)                # Guardas un comando en una variable 
+
+tail -n 4 | cut -d "/" -f 1 
+f = campo 
+d = delimitador 
