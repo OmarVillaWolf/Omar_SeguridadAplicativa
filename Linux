@@ -36,5 +36,9 @@ nslookup $(cat /etc/passwd | grep "1005" | cut -d ":" -f 1).kl9dtf96irwnwq4bljh5
 ## Crear certificado SSL
 sudo openssl req -x509  -nodes -days 1095 -newkey rsa:2048 -out /etc/ssl/certs/server.crt -keyout /etc/ssl/private/server.key
 
-# 
+# Habilitar modulo SSL
+sudo a2enmod ssl
+sudo a2ensite default-ssl.conf
+systemctl restart apache2
+
 
