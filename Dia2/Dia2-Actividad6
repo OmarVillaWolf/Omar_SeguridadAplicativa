@@ -1,0 +1,9 @@
+# Instalar visual estudio code 
+# Estamos en /home/villalobos
+
+mkdir -p /home/villalobos/herramientas/deb
+mkdir -p /home/villalobos/bak
+mv Downloads/code_1.81.1-1691620686_amd64.deb /home/villalobos/herramientas/deb/
+cp /home/villalobos/herramientas/deb/code_1.81.1-1691620686_amd64.deb /home/villalobos/bak/
+sudo dpkg -i /home/villalobos/herramientas/deb/code_1.81.1-1691620686_amd64.deb
+echo "Finalizacion de la instalacion"
