@@ -1,6 +1,6 @@
 # Script2 .- Del script anterior crear un usuario con directorio personal, contraseña predeterminada, shell /bin/zsh y el comentario "act2" con solo el nombre.
 
-useradd -m -d /home/$1 -s /bin/zsh $1 -p $1 -c "act2";
+useradd -m -s /bin/zsh $1 -p $1 -c "act2";
 
   # d = Directorio
   # s = Shell
