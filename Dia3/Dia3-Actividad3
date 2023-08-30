@@ -1,0 +1,25 @@
+# De la siguiente lista realizar las funciones para obtener lo siguiente:
+# Obtener el promedio
+# Cantidad de aspirantes que aprobaron 
+
+a = [8,9,10,6,6,7,8,9,5,6,7,6,8,8,9,9,5,6,7,9,10,7,8,9,9]
+
+def promedio(c): 
+    count = a = 0
+    for i in c:
+        count += 1
+        a = a + i
+    return a / count
+        
+    
+def reprobaron(d):
+    count = 0
+    for i in d:
+        if i < 6:
+            count += 1
+    return count 
+        
+
+print("El promedio es: ", promedio(a), end=" " )
+print(" ")
+print("Numero de reprobados: ", reprobaron(a) )
