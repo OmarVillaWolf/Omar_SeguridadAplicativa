@@ -1,0 +1,30 @@
+# Hacer una calculadora 
+
+n1 = float(input("Ingrese su primer numero: "))
+n2 = float(input("Ingrese su segundo numero: "))
+
+print("1 = Suma")
+print("2 = Resta")
+print("3 = Multiplicacion")
+print("4 = Division")
+opcion = int(input("Elige una opción: ") )
+
+def suma(n1, n2): return n1 + n2
+def resta(n1, n2): return n1 - n2
+def multiplica(n1, n2): return n1 * n2
+def division(n1, n2): return n1 / n2
+
+if opcion == 1:
+    print(" ")
+    print("RESULTADO: La suma es: ", suma(n1, n2))
+elif opcion == 2:
+    print(" ")
+    print("RESULTADO: La resta es: ", resta(n1, n2))
+elif opcion == 3:
+    print(" ")
+    print("RESULTADO: La multiplicacion es: ", multiplica(n1, n2))
+elif opcion == 4:
+    print(" ")
+    print("RESULTADO: La division es: ", division(n1, n2))
+else:
+    print("Opción incorrecta")
