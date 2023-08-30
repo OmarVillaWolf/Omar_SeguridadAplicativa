@@ -1,1 +1,10 @@
-Hola
+# Primera actividad 
+# Genera un codigo para detectar si es un palindromo 
+
+string = "Ana"
+str = string.lower()
+
+if str == str[::-1]:
+    print("Es un palindromo")
+else:
+    print("No es un palindromo")
