@@ -1,0 +1,27 @@
+# Python
+
+# Lista 
+# Las listas siempre comienzan hacia adelante 
+""" Con comilla triple es comentatio 
+lista = [1, 2, 3, 4, 5, "text"]
+lista.append(1.2)
+print(lista[5])
+lista.append("String")
+print(lista)
+
+lista.count # Cuenta 
+lista.pop   # 
+lista.clear # Limpia la lista 
+"""
+
+# Rango 
+"""
+lista = [8, 5, 2, 7, 3, "text"]     # Inicio de la lista es en la posicion 0 
+#print(lista[:7])                   # Inicia el inicio de la lista : Donde finaliza la lista 
+#print(lista[-2:])
+print(lista[0:2])                   # Obtenemos dos valores [8,5]
+"""
+
+# Saltos 
+lista = [8, 5, "text2", 7, 8, 1, 0, "text"]
+print(lista[1:-6:3])                # [Primero, fin, saltos] 
