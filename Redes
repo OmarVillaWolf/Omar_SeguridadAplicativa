@@ -14,6 +14,7 @@ TLS Handshake
 1   -- Intercambio de llaves --> 2
 1          HTTP        2
 
+Request (Cliente) ---- Response (Servidor)
 
 # Netcat
 nc -nlvp 443                # Abrir un puerto para el escucha 
@@ -22,9 +23,18 @@ nmap localhost -p 9999      #
 
 
 # Cabeceras HTTP
-GET                         # Metodo y se envia por la URL , POST por el cuerpo 
-Host: 127.0.0.1             # Direccion IP
-User-Agent                  # Seria el curl 
-Accept:                     # Cuando se acepta la intercepcion 
+GET /  HTTP/1.1             # Metodo que nos ayuda a solicitar recursos, /:recurso, protocolo y la version de HTTP 1.0, 1.1, 1.2
+Host: 127.0.0.1             # Cabecera del servidor y lleva una IP
+User-Agent                  # Informacion del usuario (Navegador/version) Sistema operativo, descripcion del software, tipo
+                            # Cambiar el user-agent de SQLmap a Mozilla para poder evadir un mecanismo de control, autenticacion
+Accept:                     # Acepta el tipo de texto, html, xhtm, xml e imagenes
+Accept Language:            # Los tipos de lenguaje que acepta 
+Accept Encoding:            # Acepta cualquier tipo de datos 
+Rferer:                     # La aplicacion web anterior y evades mecanismos de autenticacion 
+Connection:                 # El estado de la conexion actual, si hay un video en HTTP esta 'open' 
+Cookie:                     # Identifica la sesion y su usuario, o cuando inicias sesion
+
+GET:                        # Es en la URL y se ve 
+POST:                       # Va en el cuerpo y no se ve y es mas seguro para datos sensibles 
 
 kGk]LJM9+6_.38)749Ed):#!2*;[Mj9;
