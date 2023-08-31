@@ -1,0 +1,28 @@
+# Redes 
+
+# Kali 
+/etc/hosts         # DNS de Kali Linux
+
+TLS Handshake 
+
+1   -- syn -->  2
+1   <-- SYN ACK  -- 2
+1   -- ACK --> 2
+1   <-- Client Hello -- 2
+1   -- Server Hello  --> 2
+1   <-- Intercambio de llaves  -- 2 
+1   -- Intercambio de llaves --> 2
+1          HTTP        2
+
+
+# Netcat
+nc -nlvp 443                # Abrir un puerto para el escucha 
+curl localhost:9999         # Mandar una peticion 
+nmap localhost -p 9999      # 
+
+
+# Cabeceras HTTP
+GET                         # Metodo y se envia por la URL , POST por el cuerpo 
+Host: 127.0.0.1             # Direccion IP
+User-Agent                  # Seria el curl 
+Accept:                     # Cuando se acepta la intercepcion 
