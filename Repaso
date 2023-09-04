@@ -1,0 +1,36 @@
+# Repaso Seguridad aplicativa 
+
+CIA - 
+AAA -
+OWASP TOP 10 - 
+
+Activo - Valor a la empresa 
+Vulnerabilidad - Error en un sistema 
+Ataque - 
+Impacto - Materializacion de una amenaza 
+Evento - Ge
+Riesgo - Probabilidad de que se materialice una amenaza 
+Amenaza - 
+Exploit - Software que automatiza 
+Payload - Codigo que aprovecha la vulnerabilidad 
+
+# Sotfware 
+Linux (Filtrado, bash)
+Python
+SQL
+
+# Redes 
+TCP/IP 
+HTTP (Request - Response)
+  Codigos de estado 
+
+# Tipos de ataques en HTTP
+SQLI
+XXS
+
+# Tools 
+Burpsuite 
+
+
+
+
