@@ -1,0 +1,29 @@
+####  Seguridad aplicativa  ####
+
+### Reconocimiento: 
++ Debemos de tener el archivo de requerimiento 
++ IP 'URL', Pagina web a atacar y cuales no, credenciales (admin, usuarios internos)
++ Limite de donde podemos atacar y que no
+
+### Archivo de Requerimiento: 
++ Nombre de la empresa
++ Aplicacion 
++ Nombre del documento
++ Fecha
++ Statement of Work
++ Responsable 
++ Cliente responsable 
++ Nombre de la app (URL, QR)
++ Ubicacion (Interna, Externa)
++ Tipo de ambiente (Productivo) No (' or 1=1-- -), preguntar si podemos tirarlo si no esta en productivo
++ Observaciones 
++ Restricciones 
++ Notas adicionales 
+
+
+### Mapeo: 
++ 
+
+### Descubrimiento: 
+
+### Explotacion:
