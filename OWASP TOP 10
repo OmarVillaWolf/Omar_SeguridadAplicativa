@@ -1,0 +1,21 @@
+1.- Broken Access Control: Ocurre una falla o una ausencia de mecanismos
+    Vulnerabilidades: IDOR, CORS, CSRF, Directory Traversal, Privilege escalation, 
+
+2.- Cryptographic Failures: Cuando el cifrado no se implementa de forma correcta o se usan cifrados antiguos 
+    Vulnerabilidades: Weak Encoding Password, Inadequate Encrption Strength, 
+
+3.- Injection: 
+
+4.- Insecure Design:
+
+5.- Security Misconfiguration: 
+
+6.- Vulnerable and Outdated Components: 
+
+7.- Identification and Authentication Failures: 
+
+8.- Software and Data Integrity Failures: 
+
+9.- Security Logging and Monitoring Failures:
+
+10.- Server Side Request Forgery:
