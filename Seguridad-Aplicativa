@@ -1,11 +1,6 @@
-####  Seguridad aplicativa  ####
+####  Seguridad aplicativa  #### (PRE Fase de Requerimientos)
 
-### Reconocimiento: 
-+ Debemos de tener el archivo de requerimiento 
-+ IP 'URL', Pagina web a atacar y cuales no, credenciales (admin, usuarios internos)
-+ Limite de donde podemos atacar y que no
-
-### Archivo de Requerimiento: 
+### Archivo de Requerimiento: Hecho por el gerente 
 + Nombre de la empresa
 + Aplicacion 
 + Nombre del documento
@@ -13,17 +8,73 @@
 + Statement of Work
 + Responsable 
 + Cliente responsable 
-+ Nombre de la app (URL, QR)
-+ Ubicacion (Interna, Externa)
++ Nombre de la app (URL, QR), poder acceder 
++ Ubicacion (Interna VPN, Externa), credenciales 
 + Tipo de ambiente (Productivo) No (' or 1=1-- -), preguntar si podemos tirarlo si no esta en productivo
 + Observaciones 
 + Restricciones 
 + Notas adicionales 
 
+### 1ra Fase - Reconocimiento: 
++ Debemos de tener el 'archivo de requerimiento'
++ IP 'URL', Pagina web a atacar y cuales no, credenciales (admin, usuarios internos)
++ Limite de donde podemos atacar y que no
 
-### Mapeo: 
+### 1ra Fase Tools
++ Ping (IP, TTL: 128 Windows, 64 Linux, si alcanzamos el dominio)          ++
++ nslookup (Regresa la IP del dominio)                                     ++
++ dnsdumpster.com, Robtex.com
++ Maquina del tiempo (waybackmachine)                                      ++
++ Validar si nos podemos conectar a la web 
++ Validar credenciales
++ Wappalizer, Build with, whatweb, shodan (IP)                             ++ 
++ Google Dors 
+  site: (Nos regresas los dominios)
+  datatype: (Tipo de archivo)
++ whatweb dominio.com                                                      ++
++ wafw00f                                                                  ++ 
+
+### SoW (Statement of Work) 
+Documento Formal 
++ Nombre de la empresa 
++ Fecha que inicio, Fecha que se termino 
++ Indice 
+  descripcion
+  objetivo
++ Definicion 
+  SoW
+  OWASP TOP 10
+  SANS  ----> Leer de que trata 
+  Vulnerabilidad 
+  URL (Uniform Resource Locator) Protocolo: HTTP, Dominion: www.google.com, Recurso: 
++ Esquema de ejecucion de actividades (Basadas en el OWASP TOP 10)
+
+############################################################################################
+
+### 2da Fase - Mapeo: o (Puede haber descubrimiento de vulnerabilidades)
 + 
 
-### Descubrimiento: 
+### 2da Fase Tools 
++ nmap 
+  max-retries 1 (Veces que hace la conexion)
+  sV (Versiones)
+  T3 'Default', si hay un WAF un T2
++ TestSSL 
+  https://github.com/drwetter/testssl.sh/releases/tag/v3.0.8 (Descargamos)
+  unzip file.zip
+  cd test 
+  ./testssl.sh dominio.com ---> (Nos arroja IP, Puerto, TLS)
++
 
-### Explotacion:
+TLS 1.1, 1.2 
+TLS v3 
+reportar Menores a 256  
+############################################################################################
+
+### 3ra Fase -  Descubrimiento: 
++
+
+############################################################################################
+
+### 4ta Fase - Explotacion:
++
