@@ -1,4 +1,15 @@
-## Comandos Linux
+### Comandos Linux ###
+
+## Detalles de la maquina 
++ Clic derecho, references, transparencia 0 
+
+## Tools ##
++ Maguey 
+
+## Tools para hacer apuntes 
++ CherryTree (Datos de contacto, Correo, Tel, Nombre de la aplicacion, URL, credenciales)
++ OneNote en Windows 
+
 
 nslookup domain.com           # Sirve para que nos regrese la ip del dominio ingresado
 test=$(whoami)                # Guardas un comando en una variable 
