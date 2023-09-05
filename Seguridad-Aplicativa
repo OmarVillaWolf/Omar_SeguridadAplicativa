@@ -64,15 +64,29 @@ Documento Formal
   unzip file.zip
   cd test 
   ./testssl.sh dominio.com ---> (Nos arroja IP, Puerto, TLS)
-+
+
 
 TLS 1.1, 1.2 
 TLS v3 
-reportar Menores a 256  
+reportar Menores a 256
+
+
 ############################################################################################
 
 ### 3ra Fase -  Descubrimiento: 
 +
+
+## Tool Web ## 
++ BurpSuite
++ Gobuster, wffuf, Dirb, dirbuster 
+  -k (Para que Gobuster acepte el certificado autofrimado)
+  --help (Ayuda en el comando Gobuster)
+  --exclude-length (Excluir la longitud)
+  Codigos interesantes (500, 401, 200, Todos los 300)
+  gobuster dir -u "https://localhost/" -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -k --proxy "http://locahost:8080" -x "asp"
+    x = buscar archivos 
+    proxy = nuestro proxy en Burpsuite
++ nmap
 
 ############################################################################################
 
