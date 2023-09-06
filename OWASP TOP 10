@@ -1,10 +1,34 @@
-1.- Broken Access Control: Ocurre una falla o una ausencia de mecanismos
-    Vulnerabilidades: IDOR, CORS, CSRF, Directory Traversal, Privilege escalation, 
+1.- Broken Access Control: Es la incorrecta o falla de verificacion de los privilegios cuando acceden a los recursos de 
+la aplicacion.
+    + Confidencialidad: Acceso no autorizado a informacion sensible
+    + Disponibilidad: Negacion de acceso
+    + Integridad: Modificaciones no autorizadas, Escalacion de priv, funciones administrativas
+    + Vuln: IDOR, CORS, CSRF, Directory Traversal, Privilege escalation
 
-2.- Cryptographic Failures: Cuando el cifrado no se implementa de forma correcta o se usan cifrados antiguos 
-    Vulnerabilidades: Weak Encoding Password, Inadequate Encrption Strength, 
+IDOR: Problema de seguridad en aplicaciones que se procede al acceso directamente a un objeto de implementacion interno, 
+pero no se validan controles de acceso ni verificaciones de autorizacion adicionales. 
+
+Recomendaciones: 
+    + Negar todo acceso por defecto
+    + Principio "Privilegio minimo"
+    + Validacion en el servidor 
+    + Control de acceso y Autenticacion basados en roles 
+    + No ocultar funciones del lado del cliente
+
+    + Mapa de referencia indirectas
+    + Frameworks 
+
+
+base64: Codificacion que rota las 64 posiciones y en la codificacion mayormente termina en =
+
+Recomendaciones para atacar:
+    + Ataques de Fuerza bruta controlados, por los metodos GET POST 
+
+2.- Cryptographic Failures: 
+    Vuln: Weak Encoding Password, Inadequate Encrption Strength, 
 
 3.- Injection: 
+    Vuln: 
 
 4.- Insecure Design:
 
