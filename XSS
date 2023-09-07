@@ -1,0 +1,6 @@
+### XSS
+
+Para saber si existe un XSS, el resultado se debe de reflejar en la pagina 
+
+"><scipt>alert("XSS")</script>                 # Debemos de escapar la comilla 
+'<script>alert("XSS")</script>
