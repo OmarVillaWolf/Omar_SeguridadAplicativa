@@ -10,13 +10,14 @@ Es cuando inyectas y se mantiene en la base de datos y se mantiene persistente. 
 # DOM
 Interactua solo en el cliente, y es la estructura que vemos en el navegador. Apartados como el header, cookies, location, reference.  (Solo se haces el uso una sola vez)
 
-
+# Debemos de codificar para el XSS
 
 ### Codigo HTML  ###
 # Agregar imagenes y enlaces 
 <a href="https://www.ionos.mx/digitalguide/URL">Texto ancla</a>
 <img src="images/imagen.png">
 <img src="https://test.com/images/imagen.png">
+<img src="X" onerror=alert(1) />
 
 # Despliega una pagina en otra pagina 
 <iframe src="http://ejemplo.org/demo.html" height="400" width="800" name="demo">
