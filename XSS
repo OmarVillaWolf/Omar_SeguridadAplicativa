@@ -1,4 +1,15 @@
-### XSS
+### XSS (Podemos ingresar HTML, JavaScript)
+
+# Reflejado 
+La informacion viaja desde el cliente y va al servidor, despues de ahi la respuesta va al cliente. (Solo intercatua una vez)
+Robo de cookies, defacement (Modificar la apariencia del sitio).  
+
+# Almacenado
+Es cuando inyectas y se mantiene en la base de datos y se mantiene persistente. (Tiene n consultas)
+
+# DOM
+Interactua solo en el cliente, y es la estructura que vemos en el navegador. Apartados como el header, cookies, location, reference.  (Solo se haces el uso una sola vez)
+
 
 
 ## Para saber si existe un XSS, el resultado se debe de reflejar en la pagina 
