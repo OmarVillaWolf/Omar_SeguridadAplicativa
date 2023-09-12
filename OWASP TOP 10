@@ -6,6 +6,17 @@ https://www.exploit-db.com/searchsploit
 SAST - Static Aplication Security Testing (Codigo)
 DAST - Dinamic Aplication Security Testing (En tiempo real, interaccion)
 
+base64: Codificacion que rota las 64 posiciones y en la codificacion mayormente termina en =
+
+Fallo a lo seguro: Debemos de contener la amenaza
+
+Que es try-catch: 
+
+2 flags en HTML:
+    + 
+
+#######################                 #################
+
 1.- Broken Access Control: Es la incorrecta o falla de verificacion de los privilegios cuando acceden a los recursos de 
 la aplicacion.
     + Confidencialidad: Acceso no autorizado a informacion sensible
@@ -16,35 +27,36 @@ la aplicacion.
 IDOR: Problema de seguridad en aplicaciones que se procede al acceso directamente a un objeto de implementacion interno, 
 pero no se validan controles de acceso ni verificaciones de autorizacion adicionales. 
 
-Recomendaciones: 
-    + Negar todo acceso por defecto
-    + Principio "Privilegio minimo"
-    + Validacion en el servidor 
-    + Control de acceso y Autenticacion basados en roles 
-    + No ocultar funciones del lado del cliente
-
-    + Mapa de referencia indirectas
-    + Frameworks 
-
-
-base64: Codificacion que rota las 64 posiciones y en la codificacion mayormente termina en =
-
-Recomendaciones para atacar:
-    + Ataques de Fuerza bruta controlados, por los metodos GET POST 
 
 2.- Cryptographic Failures: 
     Vuln: Weak Encoding Password, Inadequate Encrption Strength, 
 
+
 3.- Injection: 
-    Vuln: 
+    + SQLI
+    + XSS
+    + Command Injection
+
 
 4.- Insecure Design:
+    + Encontramos aveces del lado del cliente con errores 400
+
 
 5.- Security Misconfiguration: 
+    + Encontramos algunas en la parte del servidor con errores 500
+    + XXE (Esto lo vemos en el 'Content-Type' que acepta XML
+
 
 6.- Vulnerable and Outdated Components: 
+    + Detectar versiones y ver si esas tienen vulnerabilidades, esto lo hacemos con Wapalyzer, Whatweb, 
+    Burp en la parte de 'response' y solo lo reportamos  
+
 
 7.- Identification and Authentication Failures: 
+    + Conoce (passwd,pin), es (biometrico), tiene (token, llaves)
+    + Autenticacion:  
+    + Autorizacion: 
+    + 
 
 8.- Software and Data Integrity Failures: 
 
