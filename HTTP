@@ -3,8 +3,27 @@
 Secure - Para el protocolo HTTPS 
 HTTP-Only - Solo sea accedido para el protocolo HTTP
 
-GET: Usa la url 
-POST: Usa el cuerpo 
+1.- GET: Es el método que nos ayuda a solicitar recursos, en el podemos encontrar el tipo
+de recurso, protocolo y la versión (HTTP/1.1)
+2.- Host: Es la cabecera del servidor y lleva una IP.
+3.- User-Agent: Esta cabecera lleva la información del usuario, el tipo de navegador, su
+versión, sistema operativo, tipo y descripción del software.
+4.- Accept: El tipo de texto que acepta como lo puede ser HTML, XML, e imágenes.
+5.- Accept-Language: Son los tipo de lenguaje que acepta
+6.- Accept-Encoding: Los tipos de datos que acepta
+7.- Connection: Es el estado de la conexión
+8.- Cookie: Identifica la sesión y su usuario
+
+Server: Sirve para saber la versión del servidor y si es vulnerable lo podremos explotar.
+Set-Cookie: Es la cookie que ya teníamos anteriormente y la volvió a colocar para podernos
+autenticar
+Content-Type: Regresa código HTML de código texto, la puedes modificar para que te
+acepte otro tipo de texto como Json
+Content-Length: Longitud del contenido
+
+
+################                     #######################
+
 
 Códigos de estado más comunes en HTTP:
 200 ‘OK’: La solicitud ha tenido éxito.
