@@ -57,7 +57,7 @@ pero no se validan controles de acceso ni verificaciones de autorizacion adicion
     + Fixation: Cuando el de la app no presenta, id es el mismo
     + Fuerza bruta 
     + Credenciales por defecto
-    + Enumeracion de usuarios
+    + Enumeracion de usuarios (Donde la pagina te dice si el usuario esta bien pero la passwd no)
     + Ataques automatizados
     + Falta de passwd robustas
     + Incorrecta generacion de identificadores de sesion
