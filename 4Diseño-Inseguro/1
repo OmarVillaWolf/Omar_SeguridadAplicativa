@@ -1,0 +1,29 @@
+# Diseño Inseguro 
+
+Son riesgos relacionados con los defectos de diseño y arquitectura, dando origen a diferentes vulnerabilidades comunes como "mensajes de error con informacion confidencial",
+"almacenamiento inseguro de credenciales", "violacion de los limites de confianza", por mencionar algunos. 
+
+Un diseño seguro no puede slucionarse con una implementacion "perfecta", a diferencia de un diseño seguro 
+
+
+Ocurre?
+Falta de:
+  Perfiles de riesgo
+  Modeloado de amenazas 
+  Uso de patrones seguros 
+  Biblioteca de componentes seguros
+
+
+Accesos no autorizados 
+Control total 
+Negacion de acceso 
+
+Recomendaciones:
+  Uso de ciclo de vida de desarrollo con profesionales 
+  Evaluar y diseñar controles relacionados con la seguridad y la privacidad 
+  Uso de biblioteca de patrones de diseños seguros 
+  Modelado de amenazas por autenticacion critica, control de acceso, logica empresarial 
+
+
+
+
