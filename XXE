@@ -1,5 +1,7 @@
 # Ejemplo XXE
 
+https://blog.segu-info.com.ar/2021/02/vulnerabilidades-xxe-xml-external.html?m=0
+
 <?xml version="1"?>
   <!DOCTYPE xxe [
   <!ENTITY hack "Test">
