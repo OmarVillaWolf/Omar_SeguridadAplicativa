@@ -2,6 +2,7 @@
 
 https://www.cvedetails.com/
 https://www.exploit-db.com/searchsploit
+https://crackstation.net/
 
 SAST - Static Aplication Security Testing (Codigo)
 DAST - Dinamic Aplication Security Testing (En tiempo real, interaccion)
@@ -13,18 +14,15 @@ Fallo a lo seguro: Debemos de contener la amenaza
 Que es try-catch: 
 
 2 flags en HTML:
-    + 
+    + Secure
+    + HTTP-only
 
 #######################                 #################
 
 1.- Broken Access Control: Es la incorrecta o falla de verificacion de los privilegios cuando acceden a los recursos de 
 la aplicacion.
-    + Confidencialidad: Acceso no autorizado a informacion sensible
-    + Disponibilidad: Negacion de acceso
-    + Integridad: Modificaciones no autorizadas, Escalacion de priv, funciones administrativas
     + Vuln: IDOR, CORS, CSRF, Directory Traversal, Privilege escalation
-
-IDOR: Problema de seguridad en aplicaciones que se procede al acceso directamente a un objeto de implementacion interno, 
+    + IDOR: Problema de seguridad en aplicaciones que se procede al acceso directamente a un objeto de implementacion interno, 
 pero no se validan controles de acceso ni verificaciones de autorizacion adicionales. 
 
 
@@ -55,8 +53,9 @@ pero no se validan controles de acceso ni verificaciones de autorizacion adicion
 7.- Identification and Authentication Failures: 
     + Conoce (passwd,pin), es (biometrico), tiene (token, llaves)
     + Autenticacion:  
-    + Autorizacion: 
+    + Autorizacion: Roles de cada usuario 
     + 
+
 
 8.- Software and Data Integrity Failures: 
 
