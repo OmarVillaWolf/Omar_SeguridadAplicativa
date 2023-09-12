@@ -1,3 +1,10 @@
+# Paginas de vulnerabilidades 
+
+https://www.cvedetails.com/
+https://www.exploit-db.com/searchsploit
+
+
+
 1.- Broken Access Control: Es la incorrecta o falla de verificacion de los privilegios cuando acceden a los recursos de 
 la aplicacion.
     + Confidencialidad: Acceso no autorizado a informacion sensible
