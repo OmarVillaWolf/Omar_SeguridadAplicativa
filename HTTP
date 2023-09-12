@@ -1,0 +1,5 @@
+# Flags para el identificador de sesion 
+
+Secure - Para el protocolo HTTPS 
+HTTP-Only - Solo sea accedido para el protocolo HTTP
+
