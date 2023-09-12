@@ -3,7 +3,8 @@
 https://www.cvedetails.com/
 https://www.exploit-db.com/searchsploit
 
-
+SAST - Static Aplication Security Testing (Codigo)
+DAST - Dinamic Aplication Security Testing (En tiempo real, interaccion)
 
 1.- Broken Access Control: Es la incorrecta o falla de verificacion de los privilegios cuando acceden a los recursos de 
 la aplicacion.
