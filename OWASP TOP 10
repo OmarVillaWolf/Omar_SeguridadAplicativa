@@ -54,10 +54,18 @@ pero no se validan controles de acceso ni verificaciones de autorizacion adicion
     + Conoce (passwd,pin), es (biometrico), tiene (token, llaves)
     + Autenticacion:  
     + Autorizacion: Roles de cada usuario 
-    + 
+    + Fixation: Cuando el de la app no presenta, id es el mismo
+    + Fuerza bruta 
+    + Credenciales por defecto
+    + Enumeracion de usuarios
+    + Ataques automatizados
+    + Falta de passwd robustas
+    + Incorrecta generacion de identificadores de sesion
 
 
 8.- Software and Data Integrity Failures: 
+    + 
+
 
 9.- Security Logging and Monitoring Failures:
 
