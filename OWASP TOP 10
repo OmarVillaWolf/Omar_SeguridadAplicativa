@@ -72,6 +72,16 @@ Serializacion: Pasa un objeto (estado complejo) en un formato que pueda ser alma
     + componentes vulnerables en rutinas de 'deserializacion'
     + Firmas digitales (Hash)
     + Serializacion y deserializacion en la Cookie en su objeto (Base64), forma serializada en PHP, Java
+Estructura de un Objeto PHP (Codificacion base64):
+        O:4:"User":2:{s:8:"username";s:6:"wiener";s:12:"access_token";s:32:"guflgptcsxmr5v71n3a2oluad5ihz9bx";}
+            Primer 2 = Numero de objetos (username,access token)
+            s = string y el numero de letras
+            i = integer 
+            b = booleano
+Estructura de un objeto JAVA (lenguaje compilado):
+    ysoserial.jar --> lo que hace es cargar un Payload y lo compila y lo serializa
+        r00A
+            
 Portswigger: 
     + Insecure deserialization (Ocupar el inspector)
 Mitigar: Con un hash para comparar (SHA-256)
