@@ -61,6 +61,7 @@ pero no se validan controles de acceso ni verificaciones de autorizacion adicion
     + Ataques automatizados
     + Falta de passwd robustas
     + Incorrecta generacion de identificadores de sesion
+    + Misma Cookie 
 
 
 8.- Software and Data Integrity Failures: 
