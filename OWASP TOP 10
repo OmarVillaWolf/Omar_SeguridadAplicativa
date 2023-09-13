@@ -22,8 +22,8 @@ Que es try-catch:
 1.- Broken Access Control: Es la incorrecta o falla de verificacion de los privilegios cuando acceden a los recursos de 
 la aplicacion.
     + Vuln: IDOR, CORS, CSRF, Directory Traversal, Privilege escalation
-    + IDOR: Problema de seguridad en aplicaciones que se procede al acceso directamente a un objeto de implementacion interno, 
-pero no se validan controles de acceso ni verificaciones de autorizacion adicionales. 
+    + IDOR: Problema de seguridad en aplicaciones que se procede al acceso directamente a un objeto de 
+implementacion interno, pero no se validan controles de acceso ni verificaciones de autorizacion adicionales. 
 
 
 2.- Cryptographic Failures: 
@@ -31,6 +31,7 @@ pero no se validan controles de acceso ni verificaciones de autorizacion adicion
 
 
 3.- Injection: 
+Portswigger: 
     + SQLI
     + XSS
     + Command Injection
@@ -42,7 +43,7 @@ pero no se validan controles de acceso ni verificaciones de autorizacion adicion
 
 5.- Security Misconfiguration: 
     + Encontramos algunas en la parte del servidor con errores 500
-    + XXE (Esto lo vemos en el 'Content-Type' que acepta XML
+Portswigger: XXE (Esto lo vemos en el 'Content-Type' que acepta XML
 
 
 6.- Vulnerable and Outdated Components: 
@@ -65,7 +66,12 @@ pero no se validan controles de acceso ni verificaciones de autorizacion adicion
 
 
 8.- Software and Data Integrity Failures: 
-    + 
+Serializacion: Pasa un objeto (estado complejo) en un formato que pueda ser almaenado en disco. 
+    + Minimos privilegios 
+    + Repositorios confibles 
+    + componentes vulnerables en rutinas de 'deserializacion'
+    + Firmas digitales (Hash)
+Portswigger: 
 
 
 9.- Security Logging and Monitoring Failures:
