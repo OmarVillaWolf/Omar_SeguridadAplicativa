@@ -71,7 +71,11 @@ Serializacion: Pasa un objeto (estado complejo) en un formato que pueda ser alma
     + Repositorios confibles 
     + componentes vulnerables en rutinas de 'deserializacion'
     + Firmas digitales (Hash)
+    + Serializacion y deserializacion en la Cookie en su objeto (Base64), forma serializada en PHP, Java
 Portswigger: 
+    + Insecure deserialization (Ocupar el inspector)
+Mitigar: Con un hash para comparar (SHA-256)
+https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf
 
 
 9.- Security Logging and Monitoring Failures:
