@@ -89,5 +89,54 @@ https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf
 
 
 9.- Security Logging and Monitoring Failures:
+    + Falta de registro de eventos o logs en la app web 
+    + Quien lo hizo, como lo hizo, logs
+    + esquema fallidos o intentos de sesion fallidos (Ataque de fuerza bruta) 
+    + Ver logs de escalada de privilegios 
+
+Logs 
+    + Autenticacion exitosa
+
+Que no debemos de registrar?
+    + Datos sensibles (confidencial)
+    + No almacenar Token ni identificar de sesion 
+    + No debemos de ver los hashes 
+
+Nos ayuda a ver si hay ataques de fuerza bruta 
+Debemos de ver la fecha y hora completa
+
 
 10.- Server Side Request Forgery:
+    + 
+
+
+01.- Calculo de riesgo
+    + Owasp Risk Rating Methodology (Calcular el riesgo desde lo mas alto a lo mas bajo)
+    + Riesgo = probabilidad x impacto 
+
+Factores Probabilidad 
+    - Agente amenazante 
+        + Nivel de habilidad 
+        + Motivacion
+        + Oportunidad 
+        + Tamaño del riesgo 
+
+    - Vulnerabilidad 
+        + Facil de descubrir 
+        + Facil de explotar 
+        + Que tan conocido es 
+        + Deteccion de intrusion 
+
+Factores Impacto 
+    - Impacto tecnico 
+        + Confidencialidad 
+        + Integridad 
+        + Disponibilidad 
+        + Responsabilidad 
+
+    - Impacto al negocio 
+        + Daño financiero 
+        + Daño reputacional 
+        + Inclumplimiento 
+        + Violacion a la privacidad 
+
