@@ -17,6 +17,8 @@ Que es try-catch:
     + Secure
     + HTTP-only
 
+Cabecera del ClickHijacking para evitar 
+    + 1X-Frame-options
 #######################                 #################
 
 1.- Broken Access Control: Es la incorrecta o falla de verificacion de los privilegios cuando acceden a los recursos de 
@@ -39,6 +41,7 @@ Portswigger:
 
 4.- Insecure Design:
     + Encontramos aveces del lado del cliente con errores 400
+    + Error handing 
 
 
 5.- Security Misconfiguration: 
@@ -127,6 +130,10 @@ Factores Probabilidad
         + Que tan conocido es 
         + Deteccion de intrusion 
 
+# Factores:  
+Prevalencia, Explotabilidad, Detectabilidad
+
+
 Factores Impacto 
     - Impacto tecnico 
         + Confidencialidad 
@@ -140,3 +147,34 @@ Factores Impacto
         + Inclumplimiento 
         + Violacion a la privacidad 
 
+
+##############################                      #########################
+
+Metodologia 
+
+
+# Reconocimiento 
+
+
+# Mapeo 
+
+
+# Descubrimiento 
+
+
+# Explotacion 
+
+
+############################                         ################3
+
+Reporte Ejecutivo
+    + Para directivos  
+
+Reporte Tecnico (Se reporta cada hallazgo paso a paso)
+    + Recomendaciones 
+
+Presentacion de resultados (Para saber el impacto en la aplicacion de cada hallazgo)
+
+Anexo 
+    + Evidencia de pantallas 
+    + Apartado de explotacion 
