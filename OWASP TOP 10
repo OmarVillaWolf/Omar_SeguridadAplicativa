@@ -29,7 +29,8 @@ implementacion interno, pero no se validan controles de acceso ni verificaciones
 
 
 2.- Cryptographic Failures: 
-    Vuln: Weak Encoding Password, Inadequate Encrption Strength, 
+    Vuln: Weak Encoding Password, Inadequate Encrption Strength, cuando capturas con HTML las credenciales 
+y salen en texto claro 
 
 
 3.- Injection: 
@@ -47,6 +48,7 @@ Portswigger:
 5.- Security Misconfiguration: 
     + Encontramos algunas en la parte del servidor con errores 500
 Portswigger: XXE (Esto lo vemos en el 'Content-Type' que acepta XML
+    + Credenciales por defecto 
 
 
 6.- Vulnerable and Outdated Components: 
@@ -105,6 +107,7 @@ Que no debemos de registrar?
     + No almacenar Token ni identificar de sesion 
     + No debemos de ver los hashes 
 
+Pros:
 Nos ayuda a ver si hay ataques de fuerza bruta 
 Debemos de ver la fecha y hora completa
 
