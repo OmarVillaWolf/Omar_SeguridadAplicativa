@@ -17,8 +17,6 @@ Que es try-catch:
     + Secure
     + HTTP-only
 
-Cabecera del ClickHijacking para evitar 
-    + 1X-Frame-options
 #######################                 #################
 
 1.- Broken Access Control: Es la incorrecta o falla de verificacion de los privilegios cuando acceden a los recursos de 
@@ -49,6 +47,8 @@ Portswigger:
     + Encontramos algunas en la parte del servidor con errores 500
 Portswigger: XXE (Esto lo vemos en el 'Content-Type' que acepta XML
     + Credenciales por defecto 
+    + Cabecera del ClickHijacking para evitar 
+    + 1X-Frame-options
 
 
 6.- Vulnerable and Outdated Components: 
