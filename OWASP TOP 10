@@ -39,12 +39,14 @@ Portswigger:
 
 
 4.- Insecure Design:
-    + Encontramos aveces del lado del cliente con errores 400
-    + Error handing 
+    + 
+    + 
 
 
 5.- Security Misconfiguration: 
     + Encontramos algunas en la parte del servidor con errores 500
+    + Encontramos aveces del lado del cliente con errores 400 (404) y si porporcionan info
+    + Error handing 
 Portswigger: XXE (Esto lo vemos en el 'Content-Type' que acepta XML
     + Credenciales por defecto 
     + Cabecera del ClickHijacking para evitar 
