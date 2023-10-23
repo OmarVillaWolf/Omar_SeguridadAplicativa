@@ -1,0 +1,70 @@
+--- DevOps ---
+Ciclo de desarrollo de software, y es un ciclo de errores.
+
+--- Principio de DevOps ---
+C ultura -  Capacitacion, comunicacion, cursos 
+A utomatizacion -  Kubernetes, Docker - Se utiliza para agilizar el proceso de desallorro y entrega de sotfware asi como la gestion de infraestructura. 
+M edicion - Implica recopilar datos y metricas en todas las las eapas del ciclo de vida de desarrollo y operaciones. 
+S haring (Compartir) - Jira software  - Colaboracion y comunicacion abierta 
+
+--- Filosofia de DevOps  (3 vias) 
+1. Pensamiento sistematico
+2. Incrementar los puntos del "feedback"
+3. Cultura de experimentacion y aprendizaje continuo 
+
+--- Fases del ciclo de vida 
+1. Continuos integration ---
+Test 
+Plan
+Code
+Build 
+
+2. Continuos delivery ---
+Release
+Deploy
+Operate
+Monitor
+
+--- 1. Integracion Continua 
+Son los procesos que me llevana  mi para terminar ese producto (Java, Android, IOS)
+
+--- 2. Entrega continua
+Es unnproducto que esta listo para ser mandado a produccion
+
+--- Pipeline - Jenkins
+Es un conjunto de pasos automatizados que se utilizan para compilar, probar y desplegar una aplicacion de software desde el codigo fuente hasta el entorno de produccion. 
+1. CI (Integracion continua) - 
+2. CD - 
+
+---- DevSecOps ---- Copilot, OWASP Aplication Security , Semgrep -- Codigo como infraestructura - Terraform, Ansible, 
+
+Pre-Commit - Estoy desarrollando codigo y debemos de implementar desarrollo seguro 
+Commit- Cuando ya hemos codificado y hemos colocado el codigo en un repositorio 
+Aceptacion - 
+Produccion - 
+Operaciones - Debe de tener mejora continua, 
+
+
+-- Evaluaciones manuales 
+Web penetration testing - Evaluacion aplicativa 
+Secure Code Review
+
+-- Evaluaciones automatizadas 
+Static Assessment Security Testing  - Evalua codigo 
+Dynamic Assessment Security Testing  - Evalua la aplicacion funcionando 
+Source Composition Analyzer - Analiza las vulnerabilidades 
+
+--- Manual vs Automatica 
+Una no reemplaza a la otra, son complementarias 
+Identifica la fase en que una evaluacion genere mayor valor 
+Gestiona y correlaciona los hallazgos 
+Experimenta y reajusta 
+
+--- Mejores practicas de seguridad 
+Firmar el codigo con un hash 
+
+- Validacion Continua 
+- Verificacion Continua 
+ 
+
+
